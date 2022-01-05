@@ -34,4 +34,4 @@ RUN bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEA
 
 ENTRYPOINT ["/opt/bash32/bin/bash"]
 
-ADD .VERSION /opt/ivy/meta/RUBY_VERSION
+ADD .VERSION /opt/ivy/meta/HOMEBREW_VERSION
